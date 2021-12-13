@@ -1,4 +1,4 @@
-CFLAGS = -Wall -lpthread -I $(PWD)/include -g
+CFLAGS = -Wall -pthread -I $(PWD)/include -g
 
 OBJS = wake.o stats.o
 
